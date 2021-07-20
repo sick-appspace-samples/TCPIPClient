@@ -1,14 +1,12 @@
 ## TCPIPClient
-Creating and using TCP/IP Client
+Creating and using a TCP/IP client
 ### Description
-Creating TCP/IP Client
-This sample creates a TCPIPClient and connects to the port 2120 on the local host.
-If it receives the string "Hello" framed with STX/ETX, it sends back "Hello Server"  
+This sample creates a TCP/IP client (via the TCPIPClient crown) and connects to the port 2120 on the local host.
+If it receives the string "Hello" framed with STX/ETX, it sends back "Hello Server"
+
 ### How to Run
-To demo this sample a TCPIP server can be set up with any server tool. The server
-must be on port 2120 and listen for incoming connections and data.
-Sending "Hello" with STX/ETX framing from the TCPIP server connection should result
-in responding "Hello Server" from this client
+For running the sample a regular TCP/IP server is needed.It can be set up with any tool.
+The server has to listen on port 2120 for incoming connections and data.
 
 ### Topics
 System, Communication, Sample, SICK-AppSpace
